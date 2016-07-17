@@ -1,8 +1,8 @@
 # WeatherReporter
 
-This is a Java library to retrieve  current weather information from Open Weather Map.
+Java application to retrieve  current weather information from Open Weather Map.
 
-This application uses spring boot to run using embedded tomcat server.
+This application uses spring boot api to run using embedded tomcat server.
 
 I am using org.JSON api to parse the JSON object but parsing is being done for each element. Jackson for JSON api can be used as well which converts the JSON into a bean directly.
 
@@ -23,7 +23,8 @@ Note : Please change the app key under application.properties if required.
 
 
 #TODO
-In the interest of time , i crated a basic application which is production ready. I am sharing few ideas which can be used to add more features/flexibility.
+
+In the interest of time , i have created a simple production ready application. More enhancements can be added for more features and flexibility.
 
 1. Exception handling to translate and display the error messages properly
 2. Junit to test the spring application end to end
