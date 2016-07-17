@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Today Weather Report</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h1>Today's weather report</h1>
+    <p th:text="'Date : ' + ${city.weather.date}" />
+    <p th:text="'City Name: ' + ${city.weather.cityName}" />
+    <p th:text="'Weather description: ' + ${city.weather.description}" />
+    <p th:text="'Temprature (&#8451;): ' + ${city.weather.tempratureCelsius}" />
+    <p th:text="'Temprature (&#8457;): ' + ${city.weather.tempratureFahrenheit}" />
+    <p th:text="'Time to sunrise : ' + ${city.weather.sunriseTime}" />
+    <p th:text="'Time to sunset : ' + ${city.weather.sunsetTime}" /> 
+</body>
+</html>
