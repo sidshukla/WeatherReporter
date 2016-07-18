@@ -27,6 +27,7 @@ Note : Please change the app key under application.properties if required.
 In the interest of time , i have created a simple production ready application. More enhancements can be added for more features and flexibility.
 
 1. Exception handling to translate and display the error messages properly
+2. Better Logging, add info/debug logs into a file
 2. Junit to test the spring application end to end
 3. More methods can be added for other weather information like weather forcast , weather history etc
 4. City names are a drop down , this can be changed to text box (need more validation) , coordination based , zip codes based , current location of the browser etc.
